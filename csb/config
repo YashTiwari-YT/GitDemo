@@ -1,0 +1,21 @@
+Host yashtiwari-yt.solanaworkshoppublic.draft---festive-napier.csb
+  HostName 167.235.8.245
+  User yashtiwari-yt
+  Port 25279
+  IdentitiesOnly true
+  IdentityFile /Users/yashtiwari/.ssh/csb/csb_id_rsa_48svhf
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+
+Host yashtiwari-yt.solana-airdrop.draft---intelligent-bose.csb
+  HostName 167.235.8.251
+  User yashtiwari-yt
+  Port 33515
+  IdentitiesOnly true
+  IdentityFile /Users/yashtiwari/.ssh/csb/csb_id_rsa_nsxwei
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+Host *.github.com
+  AddKeysToAgent yes
+  IgnoreUnknown UseKeychain
+  IdentityFile ~/.ssh/id_rsa
